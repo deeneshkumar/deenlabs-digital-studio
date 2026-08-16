@@ -47,7 +47,7 @@ const PROJECT_TYPES = [
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [type, setType] = useState(PROJECT_TYPES[0]);
+  const [type, setType] = useState<string>(PROJECT_TYPES[0]!);
   const [budget, setBudget] = useState("");
   const [message, setMessage] = useState("");
   const [copied, setCopied] = useState(false);

@@ -176,7 +176,7 @@ function Roadmap() {
           <div className="surface-card flex flex-col items-start justify-between gap-6 p-9 sm:flex-row sm:items-center">
             <div>
               <h2 className="text-2xl font-semibold">
-                Need {LIVE_SERVICES[0].title.toLowerCase()} today?
+                Need {LIVE_SERVICES[0]!.title.toLowerCase()} today?
               </h2>
               <p className="mt-2 text-muted-foreground">
                 That part is live and taking projects right now.
