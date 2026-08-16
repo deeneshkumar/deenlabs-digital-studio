@@ -42,7 +42,7 @@ export const Route = createFileRoute("/roadmap")({
       },
     ],
   }),
-  component: Roadmap;
+  component: Roadmap,
 });
 
 const PHASES = [
