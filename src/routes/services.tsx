@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/Reveal";
+import { Testimonials } from "@/components/Testimonials";
 import { PageHero, Section, SectionHeading } from "@/components/Section";
 import { LIVE_SERVICES, FUTURE_SERVICES, PROCESS, FAQS } from "@/lib/site";
 
@@ -252,6 +253,7 @@ function Services() {
           </Accordion>
         </Reveal>
       </Section>
+      <Testimonials className="bg-transparent" />
     </>
   );
 }
