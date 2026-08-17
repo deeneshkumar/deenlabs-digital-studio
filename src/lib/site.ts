@@ -196,3 +196,34 @@ export const FAQS = [
     a: "Send a message from the contact page or email deenesh.official@gmail.com with a short description of your idea. You'll get a reply with next steps and a rough estimate.",
   },
 ];
+
+export const TESTIMONIALS = [
+  {
+    quote:
+      "Deenesh rebuilt my portfolio in under a week and it finally looks like the work I actually do. Two client enquiries came in the same month.",
+    name: "Aravind S.",
+    role: "Freelance UI Designer",
+    initials: "AS",
+  },
+  {
+    quote:
+      "We needed a landing page fast for a college startup pitch. Clear communication, daily preview links, and it loaded instantly on mobile.",
+    name: "Priya R.",
+    role: "Co-founder, Campus Startup",
+    initials: "PR",
+  },
+  {
+    quote:
+      "What I liked most was the honesty — he told me what I did not need to build. Saved me money and the site still does everything.",
+    name: "Mohammed I.",
+    role: "Owner, Local Fitness Studio",
+    initials: "MI",
+  },
+  {
+    quote:
+      "Simple process, no jargon. I could follow every step and ask questions without feeling stupid. The site has been running without issues.",
+    name: "Keerthana V.",
+    role: "Content Creator",
+    initials: "KV",
+  },
+];
