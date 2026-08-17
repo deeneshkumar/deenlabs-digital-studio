@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/Reveal";
 import { PageHero, Section, SectionHeading } from "@/components/Section";
 import { SITE, TRUST_POINTS } from "@/lib/site";
-import founder from "@/assets/founder.jpg";
+import founderAsset from "@/assets/founder.png.asset.json";
+
+const founder = founderAsset.url;
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -72,7 +74,7 @@ function About() {
               loading="lazy"
               width={1024}
               height={1280}
-              className="relative rounded-[2rem] border border-border object-cover"
+              className="relative rounded-[2rem] border border-border object-cover grayscale"
             />
           </Reveal>
 

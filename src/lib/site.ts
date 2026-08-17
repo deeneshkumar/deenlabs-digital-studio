@@ -2,6 +2,10 @@ export const SITE = {
   name: "DeenLabs",
   founder: "Deenesh Kumar",
   email: "deenesh.official@gmail.com",
+  phoneDisplay: "+91 82205 73381",
+  whatsapp: "918220573381",
+  whatsappUrl:
+    "https://wa.me/918220573381?text=Hi%20DeenLabs%2C%20I%27d%20like%20to%20discuss%20a%20project.",
   tagline: "Technology-focused digital agency",
   mission: "Transform ideas into digital products and opportunities.",
   vision:

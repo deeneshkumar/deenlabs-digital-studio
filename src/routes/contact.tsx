@@ -16,6 +16,7 @@ import {
 import { Reveal } from "@/components/Reveal";
 import { PageHero, Section } from "@/components/Section";
 import { SITE } from "@/lib/site";
+import { WhatsAppIcon } from "@/components/WhatsAppButton";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -193,6 +194,24 @@ function Contact() {
                 <Button variant="outline" size="sm" className="mt-4" onClick={copyEmail}>
                   {copied ? <Check className="size-4" /> : <Copy className="size-4" />}
                   {copied ? "Copied" : "Copy address"}
+                </Button>
+              </div>
+            </Reveal>
+
+            <Reveal delay={140}>
+              <div className="surface-card p-7">
+                <span className="grid size-11 place-items-center rounded-2xl bg-primary/12 text-primary">
+                  <WhatsAppIcon className="size-5" />
+                </span>
+                <h2 className="mt-5 text-lg font-semibold">Chat on WhatsApp</h2>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Quickest way to reach us — send a message any time.
+                </p>
+                <p className="mt-2 text-sm font-medium">{SITE.phoneDisplay}</p>
+                <Button asChild variant="signal" size="sm" className="mt-4">
+                  <a href={SITE.whatsappUrl} target="_blank" rel="noreferrer noopener">
+                    <WhatsAppIcon className="size-4" /> Message on WhatsApp
+                  </a>
                 </Button>
               </div>
             </Reveal>
