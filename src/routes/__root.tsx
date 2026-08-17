@@ -77,21 +77,29 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "DeenLabs — Digital Agency by Deenesh Kumar" },
+      { title: "DeenLabs — Web Development & Digital Growth Agency" },
       {
         name: "description",
         content:
           "DeenLabs is a technology-focused digital agency building modern websites, web apps and digital growth for students, creators, startups and businesses.",
       },
       { name: "author", content: "Deenesh Kumar" },
-      { property: "og:title", content: "DeenLabs — Digital Agency by Deenesh Kumar" },
+      { property: "og:title", content: "DeenLabs — Web Development & Digital Growth Agency" },
       {
         property: "og:description",
         content:
           "Modern websites and web apps for students, creators, startups and businesses.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "https://deenlabs.vercel.app/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "DeenLabs — Web Development & Digital Growth Agency" },
+      {
+        name: "twitter:description",
+        content:
+          "Modern websites and web apps for students, creators, startups and businesses.",
+      },
+      { name: "twitter:image", content: "https://deenlabs.vercel.app/og-image.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -101,7 +109,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap",
       },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "apple-touch-icon", href: "/favicon.png" },
     ],
   }),
   shellComponent: RootShell,
