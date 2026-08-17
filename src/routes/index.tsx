@@ -66,7 +66,7 @@ function Home() {
           aria-hidden="true"
           width={1920}
           height={1080}
-          className="pointer-events-none absolute inset-0 size-full object-cover opacity-40"
+          className="pointer-events-none absolute inset-0 size-full object-cover opacity-30 grayscale"
         />
         <div
           className="pointer-events-none absolute inset-0"
@@ -138,7 +138,7 @@ function Home() {
                 alt={`${SITE.founder}, founder of ${SITE.name}`}
                 width={1024}
                 height={1280}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover grayscale"
               />
               <div className="absolute inset-x-3 bottom-3 rounded-2xl border border-border bg-background/80 p-4 backdrop-blur-xl">
                 <p className="font-display text-base font-semibold">{SITE.founder}</p>
