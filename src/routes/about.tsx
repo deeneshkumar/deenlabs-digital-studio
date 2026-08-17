@@ -74,7 +74,7 @@ function About() {
               loading="lazy"
               width={1024}
               height={1280}
-              className="relative rounded-[2rem] border border-border object-cover grayscale"
+              className="relative rounded-[2rem] border border-border object-cover"
             />
           </Reveal>
 
