@@ -18,7 +18,9 @@ import { Reveal } from "@/components/Reveal";
 import { Section, SectionHeading, Eyebrow } from "@/components/Section";
 import { SITE, LIVE_SERVICES, FUTURE_SERVICES, TRUST_POINTS, PROCESS } from "@/lib/site";
 import heroBg from "@/assets/hero-bg.jpg";
-import founder from "@/assets/founder.jpg";
+import founderAsset from "@/assets/founder.png.asset.json";
+
+const founder = founderAsset.url;
 
 const ICONS = {
   Code2,
