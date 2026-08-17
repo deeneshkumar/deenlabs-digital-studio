@@ -19,9 +19,9 @@ import { Section, SectionHeading, Eyebrow } from "@/components/Section";
 import { SITE, LIVE_SERVICES, FUTURE_SERVICES, TRUST_POINTS, PROCESS } from "@/lib/site";
 import { Testimonials } from "@/components/Testimonials";
 import heroBg from "@/assets/hero-bg.jpg";
-import founderAsset from "@/assets/founder.png.asset.json";
+import founderImg from "@/assets/founder.jpg";
 
-const founder = founderAsset.url;
+const founder = founderImg;
 
 const ICONS = {
   Code2,

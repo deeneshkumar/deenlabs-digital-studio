@@ -1,58 +1,71 @@
 # DeenLabs Digital Studio
 
-i was planning to create an agency website .. so the agency name is DeenLabs .. the service we do now is webdevelopment , in we scale we do how to be more productive using AI .., business knowledge sharing sessions , Tech related Job preparation consultant ,  pyschology personal growth increase productivity ... Start your Fitness journey/ transformation -> lean to bulk like this services , personal branding ,put these in future scale up  seperate sections ..
-Your website should answer only 4 questions:
+**DeenLabs** is a technology-focused digital agency founded by **Deenesh Kumar**, helping students, creators, startups, and businesses build modern web applications, digital products, and growth ecosystems.
 
- Who are you?
+---
 
- What services do you provide?
+## 🚀 Features & Architecture
 
- Why should someone trust you?
+- **Framework**: [TanStack Start](https://tanstack.com/router) with React 19 & Vite 8
+- **Styling**: Tailwind CSS v4 + Radix UI primitives & Lucide Icons
+- **Type Safety**: Full TypeScript integration
+- **Pages**:
+  - `Home`: Core services, process, value proposition, and client testimonials
+  - `About`: Agency mission, founder story, and values
+  - `Services`: Active Web Development services + future scale-up roadmap
+  - `Roadmap`: Long-term growth vision (AI productivity, job prep, personal branding, growth)
+  - `Contact`: Inquiry form, social links, and direct WhatsApp contact
 
- How can they contact you?
+---
 
-About the agency
+## 🛠️ Local Development
 
-About DeenLabs
+### Prerequisites
+- Node.js (v18+ recommended) or Bun / pnpm
 
-DeenLabs is a technology-focused digital agency founded by Deenesh Kumar.
+### Getting Started
 
-Our mission is to help students, creators, startups, and businesses build their digital presence through modern technology and practical solutions.
+```bash
+# Install dependencies
+npm install
 
-Mission
-
-Transform ideas into digital products and opportunities.
-
-Vision
-
-Build an ecosystem where technology, creativity, and entrepreneurship come together.
-
-https://www.youtube.com/@deeneshkumarj
-https://www.instagram.com/deenesh.real/
-https://www.linkedin.com/in/deenesh2006/
-
-deenesh.official@gmail.com 
-
-create 5 pages . profesional website , engaging , modern , aesthetic .. effects , anitmations , smooth , user friendly .. fasternn , responsive .. and here is the person image ..
-based on this details brainstrom on your own and create fully functional website . everything should work.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/03007d96-6550-470f-aec3-fe51ba6fc8ff).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+# Start local dev server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
+
+---
+
+## 🌐 Deployment Options
+
+### 1. Vercel
+1. Push your code to GitHub.
+2. Import the repository in [Vercel](https://vercel.com).
+3. Framework Preset: **Vite** or **Other**.
+4. Build Command: `npm run build`
+5. Output Directory: `.output/public` or standard build output.
+
+### 2. Netlify
+1. Connect repository in [Netlify](https://netlify.com).
+2. Build command: `npm run build`
+3. Publish directory: `.output/public`
+
+### 3. Cloudflare Pages / Workers
+1. TanStack Start uses Nitro as its underlying server engine.
+2. Deploy directly via Wrangler or Cloudflare Pages git integration.
+
+---
+
+## 📬 Contact & Socials
+
+- **Website / Founder**: Deenesh Kumar
+- **Email**: [deenesh.official@gmail.com](mailto:deenesh.official@gmail.com)
+- **WhatsApp**: [+91 82205 73381](https://wa.me/918220573381)
+- **YouTube**: [@deeneshkumarj](https://www.youtube.com/@deeneshkumarj)
+- **Instagram**: [@deenesh.real](https://www.instagram.com/deenesh.real/)
+- **LinkedIn**: [deenesh2006](https://www.linkedin.com/in/deenesh2006/)

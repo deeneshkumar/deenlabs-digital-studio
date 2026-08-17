@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/Reveal";
 import { PageHero, Section, SectionHeading } from "@/components/Section";
 import { SITE, TRUST_POINTS } from "@/lib/site";
-import founderAsset from "@/assets/founder.png.asset.json";
+import founderImg from "@/assets/founder.jpg";
 
-const founder = founderAsset.url;
+const founder = founderImg;
 
 export const Route = createFileRoute("/about")({
   head: () => ({
